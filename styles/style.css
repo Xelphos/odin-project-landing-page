@@ -82,7 +82,7 @@
     margin-top: 20px;
     border: 5px solid #3882f6;
     border-radius: 6px;
-    padding: 0 15px;
+    padding: 5px 15px;
     color: #f9faf8;
     font-weight: bold;
 }
@@ -130,7 +130,7 @@
 /* Start of Quote Styling and Structuring */
 .quote {
     background-color: #e5e7eb;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 .quote-content {
@@ -150,5 +150,41 @@
 .quote-credit {
     align-self: flex-end;
     margin-top: 20px;
+    font-weight: bold;
+}
+
+/* End of Quote Styling and STructuring */
+
+/* Start of Take Action Bar */
+.take-action {
+    width: 65%;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.take-action-content {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    border: 10px solid #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    flex: 1;
+}
+
+.take-action-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.take-action-signup-button {
+    background-color: #3882f6;
+    border: 3px solid #f9faf8;
+    border-radius: 6px;
+    padding: 5px 15px;
+    color: #f9faf8;
     font-weight: bold;
 }
