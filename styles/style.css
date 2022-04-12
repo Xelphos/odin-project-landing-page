@@ -50,7 +50,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6% 0;
+    padding: 5% 0;
     gap: 40px;
 }
 
@@ -153,7 +153,7 @@
     font-weight: bold;
 }
 
-/* End of Quote Styling and STructuring */
+/* End of Quote Styling and Structuring */
 
 /* Start of Take Action Bar */
 .take-action {
@@ -188,3 +188,15 @@
     color: #f9faf8;
     font-weight: bold;
 }
+
+/* End of Take Action Styling and Structuring */
+
+/* Start of Footer Styling and Structuring */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
+/* End of Footer Styling and Structuring */
