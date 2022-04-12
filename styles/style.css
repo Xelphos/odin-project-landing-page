@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
+* {
+    padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -11,19 +12,20 @@ body {
     flex: 1;
 }
 
-.header, .top-body, .bottom-body, .mtb-content, .footer {
+.header, .nav-bar, .tb-container, .bottom-body, .mtb-content, .footer {
     display: flex;
 }
 
-.header, .footer {
-    align-items: center;
+.header, .footer, .top-body {
     background-color: #1f2937;
-    color: #eee;
 }
 
-.header {
-    justify-content: space-around;
-    height: 70px;
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    padding: 20px 0;
 }
 
 .logo {
@@ -35,8 +37,6 @@ body {
 .header-links {
     display: flex;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
     gap: 24px;
 }
 
@@ -46,8 +46,46 @@ body {
     text-decoration: none;
 }
 
+.tb-container {
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+    gap: 40px;
+}
+
+.tbt-title, .tbt-content {
+    color: #eee;
+
+}
+
+.tbt-title {
+    max-width: 350px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.tbt-content {
+    max-width: 500px;
+    font-size: 18px;
+}
+
+.tb-image {
+    display: flex;
+    width: 500px;
+    height: 250px;
+    background-color: #eee;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
 .footer {
     justify-content: center;
+    align-items: center;
     height: 50px;
 }
 
