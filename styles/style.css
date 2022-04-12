@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
 
 * {
     padding: 0;
@@ -107,7 +107,7 @@
     justify-content: space-evenly;
     gap: 20px;
     flex-wrap: wrap;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .info-box {
@@ -126,3 +126,29 @@
 }
 
 /* End of Information Styling and Structuring */
+
+/* Start of Quote Styling and Structuring */
+.quote {
+    background-color: #e5e7eb;
+    padding: 60px 0;
+}
+
+.quote-content {
+    width: 55%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    align-self: flex-start;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-credit {
+    align-self: flex-end;
+    margin-top: 20px;
+    font-weight: bold;
+}
