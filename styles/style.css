@@ -88,3 +88,41 @@
 }
 
 /* End of Header Styling and Structuring */
+
+/* Start of information Styling and Structuring */
+.information {
+    width: 70%;
+    margin: auto;
+}
+
+.information h2 {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.info-boxes-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.info-box {
+    text-align: center;
+    flex: 0 1 150px;
+    text-align: center;
+}
+
+.info-img-src {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.info-text {
+    font-size: 18px;
+}
+
+/* End of Information Styling and Structuring */
